@@ -1,5 +1,7 @@
-require "captain_hook/version"
+require 'thor'
+
+require 'captain_hook/version'
 
 module CaptainHook
-  # Your code goes here...
+  autoload :CLI, 'captain_hook/cli'
 end

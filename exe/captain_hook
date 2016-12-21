@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'captain_hook'
+CaptainHook::CLI.new(ARGV).start
